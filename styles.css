@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+header {
+    letter-spacing: 0.10em;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.container .colors {
+    text-align: center;
+}
+
+
+.category {
+    border: 2px solid rgb(78, 78, 78);
+    padding: 15px 20px;  
+    margin: 10px auto;
+}
+
+
+.category h2 {
+    letter-spacing: 0.08em;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.colors {
+    letter-spacing: 0.10em;
+    line-height: 0.7em;   
+}
+
+.colors #bleu {
+    background-color: rgb(84, 200, 230);
+    border: 5px solid rgb(71, 168, 192);
+    color: white;
+    font-size: 12px;
+}
+
+.colors #rouge {
+    background-color: rgb(223, 92, 92);
+    border: 5px solid rgb(216, 95, 95);
+    color: white;
+    font-size: 12px;
+}
+
+.colors #orange {
+    background-color: rgb(247, 200, 100);
+    border: 5px solid rgb(216, 171, 75);
+    color: white;
+    font-size: 12px;
+}
+
+.colors #vert {
+    background-color: rgb(108, 223, 156);
+    border: 5px solid rgb(81, 167, 117);
+    color: white;
+    font-size: 12px;
+}
+
+.colors div {
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 10px;
+    vertical-align: middle;
+    padding: 90px 0;
+    border: 1px solid red;
+}
+
+.fonts {
+    text-align: center;
+    line-height: 0.8em;
+}
+
+.fonts div {
+    display: inline-block;
+    width: 150px;
+    margin: 40px;
+}
+
+.fonts h3 {
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    font-weight: 200;
+}
+
+.fonts h1 {
+    line-height: 0.05em;
+    font-size: 70px;
+    color: rgb(37, 37, 37);
+}
+
+.fonts #Lobster h1{
+    font-family: "Lobster", Arial, serif; 
+}
+
+.fonts #Standard h1{
+    font-family: "Old Standard TT", Arial, serif; 
+}
+
+.fonts #Questrial h1{
+    font-family: "Questrial", Arial, serif; 
+}
